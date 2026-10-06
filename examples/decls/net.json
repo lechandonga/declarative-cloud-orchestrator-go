@@ -1,0 +1,1 @@
+{"resources":[{"type":"net","name":"vpc","properties":{"cidr":"10.0.0.0/16"}}]}

@@ -1,0 +1,9 @@
+{
+  "resources": [
+    {"type": "db", "name": "main",
+     "properties": {"cidr": "${net.vpc.cidr}", "size": 2}},
+    {"type": "app", "name": "web",
+     "depends_on": ["db.main"],
+     "properties": {"image": "web:1"}}
+  ]
+}
